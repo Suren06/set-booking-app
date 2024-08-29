@@ -1,0 +1,20 @@
+--CREATE TABLE setbook_db.users (
+--    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    first_name VARCHAR(255),
+--    last_name VARCHAR(255),
+--    full_name VARCHAR(255),
+--    email VARCHAR(255),
+--    password VARCHAR(255),
+--    image LONGBLOB,
+--    role_id BIGINT,
+--    FOREIGN KEY (role_id) REFERENCES setbook_db.roles(id)
+--);
+
+--CREATE TABLE setbook_db.users (
+--    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    user_name VARCHAR(255) NOT NULL,
+--    email VARCHAR(255) NOT NULL,
+--    password VARCHAR(255) NOT NULL,
+--    user_role VARCHAR(50) NOT NULL,
+--    image LONGBLOB,
+--);

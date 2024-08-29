@@ -1,0 +1,4 @@
+CREATE TABLE setbook_db.roles (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    role_name VARCHAR(255) NOT NULL UNIQUE
+);
